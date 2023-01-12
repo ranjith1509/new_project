@@ -140,6 +140,8 @@ const handleSort = e => {
           onChange={handleSearch}
           className="inputs"
         />
+        
+      {/* <input typr='password' /> */}
         {/* CHECKBOX */}
         <Navbar bg="danger"  expand="lg">
             <Container className="toggles">
@@ -151,6 +153,7 @@ const handleSort = e => {
         <option value="low">Price Low to High</option>
         <option value="high">Price High to Low</option>
       </select>
+
       </Nav>
     </Navbar.Collapse>
      </Container>

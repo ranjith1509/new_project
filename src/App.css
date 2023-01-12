@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.pics {
+  height: 280px;
+  margin-top: 0px;
+  background-color: #f8f8f8;
+  background-blend-mode: multiply;
+}
+
+.container {
+  padding: 0 50px;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+p {
+  font-size: small;
+}
+.card {
+  background-color: rgba(255, 255, 255, 255);
+  text-align: center;
+  justify-content: center;
+ width: 22%;
+  border-radius: 0px;
+  -webkit-box-shadow: -2px -1px 7px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 7px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px -1px 7px -3px rgba(0, 0, 0, 0.75);
+}
+.title {
+  font-weight: bolder;
+}
+.shortdescription {
+  font-weight: 700;
+}
+.offerprice {
+  font-weight: 400;
+}
+.currency {
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+}
+.inputs{
+width: 100%;
+border-radius: 5px;
+border: 1px solid black;
+}
+
+
+
+.togglebutton{
+ 
+ background-color: white;
+border-radius: 13px;
+
+
+}
+.toggler{
+
+padding: 5px;
+}
